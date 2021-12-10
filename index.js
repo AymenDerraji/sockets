@@ -19,10 +19,6 @@ app.get("/", (req,res)=>{
 // OBS - behövs för att läsa data som skickas med POST
 app.use(express.urlencoded({extended: true}));
 
-//här får vi data från guestBook.html, som skickas genom <form action="/" metodhe="post"> 
-// app.post("/", (req, res) => {
-    
-// });
 server.listen(port , () => console.log("listening on port: " + port));
 io.on('connection', (socket) => {
         console.log('a user connected');

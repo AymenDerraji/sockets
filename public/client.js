@@ -1,14 +1,6 @@
 
   var socket = io();
 
-  // if (input) {
-  // form.addEventListener("submit", function (e) {
-  //   e.preventDefault();
-  //     socket.emit("chat message", input.value);
-  //     input.value = "";
-  //   });
-  // }
-
   window.onload = () => {
     
     // identifiera output-element
