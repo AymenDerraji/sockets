@@ -9,7 +9,7 @@ const io = new Server(server);
 app.use(express.static("public"));
 const port = 3001;
 
-// när vi startar  o loggar in i localhost:3000 , då kommer vi till den sidan
+// när vi startar  o loggar in i localhost:3001 , då kommer vi till den sidan
 app.get("/", (req,res)=>{
     res.sendFile(__dirname + "/socket.html");
     
